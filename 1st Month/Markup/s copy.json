@@ -1,0 +1,44 @@
+{
+    "StudentData": {
+        "Students": [
+            {
+                "Id": 1,
+                "Name": "Safi Butt",
+                "Age": 24,
+                "Class": "A"
+            },
+            {
+                "Id": 2,
+                "Name": "Mati Butt",
+                "Age": 16,
+                "Class": "B"
+            },
+            {
+                "Id": 3,
+                "Name": "Naji Butt",
+                "Age": 12,
+                "Class": "C"
+            }
+        ],
+        "Teachers": [
+            {
+                "Id": 1,
+                "Name": "Teacher-1",
+                "Age": 40,
+                "Class": "A"
+            },
+            {
+                "Id": 2,
+                "Name": "Teacher-2",
+                "Age": 44,
+                "Class": "B"
+            },
+            {
+                "Id": 3,
+                "Name": "Teacher-3",
+                "Age": 47,
+                "Class": "C"
+            }
+        ]
+    }
+}

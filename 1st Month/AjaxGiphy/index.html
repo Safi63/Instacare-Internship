@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+    <!-- Font-awesome Cdn  -->
+    <script src="https://kit.fontawesome.com/4be142e33a.js" crossorigin="anonymous"></script>
+
+    <title>Giphy</title>
+    <style>
+        .card {
+            width: 5rem !important;
+            /* height: 12rem; */
+        }
+
+        #cardsRow {
+            border: 1px solid;
+            overflow-y: scroll;
+            height: 70vh;
+        }
+
+        #cardsRow::-webkit-scrollbar {
+            display: none;
+        }
+
+        img {
+            min-width: 20rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container text-center">
+        <div class="m-4 text-center">
+            <h2>Search Gifs</h2>
+            <div class="input-group mb-3 w-50 mx-auto my-3">
+                <input type="text" class="form-control border-secondary shadow-none" placeholder="Search" name="search"
+                    value="">
+                <div class="input-group-append">
+                    <button class="btn btn-secondary shadow-none" type="button"><i class="fa fa-search px-4"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="m-4 row justify-content-around border-0 p-2" id="cardsRow"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

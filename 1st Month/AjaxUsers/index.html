@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+    <title>Users</title>
+    <style>
+        .card {
+            width: 5rem !important;
+            /* height: 12rem; */
+        }
+
+        #cardsRow {
+            border: 1px solid;
+            overflow-y: scroll;
+            height: 70vh;
+        }
+
+        #cardsRow::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container text-center">
+        <div class=" m-4">
+            <h2 class="">Json Place holder/ Users </h2><button id="loadData" class="btn my-4 btn-dark">Load
+                Data</button>
+        </div>
+        <div class="m-4 row justify-content-around border-dark p-2" id="cardsRow">
+            <h2 class="my-auto ">Load your data here . . .</h2>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

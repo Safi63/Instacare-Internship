@@ -1,0 +1,75 @@
+@import "mixin";
+@import "variables";
+
+header{
+    background-color: $header-bg-color;
+    padding: 1.5rem;
+    margin-block:1rem;
+    @include borderShadow;
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size:1.5rem;
+    }
+
+    @media only screen and (max-width: 786px) {
+          background-color: rgb(0, 0, 0);
+          color: white;
+          border: 5px solid rgb(194, 194, 194);
+          text-shadow: 2px 2px 8px #fff;
+          box-shadow: 0px 6px 20px 0px rgba(255, 255, 255, 0.19);
+    }
+}
+
+.container{
+    background-color: $body-bg-color;
+}
+.flex{
+    display: flex;
+}
+
+.column{
+    padding: .8rem;
+
+    &:hover{
+        background-color: #000000;
+        color: white;
+        transition: 0.4s;
+        line-height: 1.5;
+    }
+}
+
+a{
+    font-size: 1.5rem;
+    &:visited{
+        color: $visited-color;
+    }
+
+    &:hover{
+        font-size: 1.64rem;
+    }
+
+    &:active{
+        color: $active-color;
+    }
+}
+
+p{
+    &::first-line{
+        background-color: rgb(120, 121, 121);
+        word-spacing: 5px;
+        letter-spacing: 2px;
+    }
+
+    &::first-letter{
+        font-size: xx-large;
+    }
+
+    &::selection{
+        color: red;
+        background-color: yellow;
+    }
+}

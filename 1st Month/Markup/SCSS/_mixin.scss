@@ -1,0 +1,5 @@
+@mixin borderShadow {
+    border: .5rem solid $border-color ;
+    text-shadow: $text-shadow;
+    box-shadow: $box-shadow;
+}

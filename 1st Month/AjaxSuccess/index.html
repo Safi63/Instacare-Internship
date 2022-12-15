@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+    <link rel="stylesheet" href="node_modules/jquery-easy-loading/src/loading.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css"
+        integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Users</title>
+    <style>
+        /* .card {
+            width: 5rem !important;
+            height: 12rem;
+        }
+
+        #cardsRow {
+            border: 1px solid;
+            overflow-y: scroll;
+            height: 70vh;
+        }
+*/
+        *::-webkit-scrollbar {
+            /* display:none  ; */
+        }
+
+        /* * {
+            outline: none;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container ">
+        <div class=" m-4">
+            <h2 class="">Json Place holder/ Users </h2><button id="loadData" class="btn my-4 btn-dark">Load
+                Data</button>
+        </div>
+        <select class="js-example-basic-single" style="width: 50%" name="state">
+            <optgroup label="First five">
+                <option value="val-1">Number 1</option>
+                <option value="val-2">Number 2</option>
+                <option value="val-3">Number 3</option>
+                <option value="val-4">Number 4</option>
+                <option value="val-5">Number 5</option>
+            </optgroup>
+            <optgroup label="Second five" class="bg-danger">
+                <option value="val-6">Number 6</option>
+                <option value="val-7">Number 7</option>
+                <option value="val-8">Number 8</option>
+                <option value="val-9">Number 9</option>
+                <option value="val-10">Number 10</option>
+            </optgroup>
+        </select>
+        <div class="m-4 row justify-content-around border-dark p-2" id="cardsRow">
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="node_modules/jquery-easy-loading/dist/jquery.loading.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"
+        integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app2.js"></script>
+</body>
+
+</html>

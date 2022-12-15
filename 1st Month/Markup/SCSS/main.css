@@ -1,0 +1,71 @@
+header {
+  background-color: rgb(221, 255, 255);
+  padding: 1.5rem;
+  margin-block: 1rem;
+  border: 0.5rem solid aqua;
+  text-shadow: 2px 2px 8px #000000;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+}
+header h1 {
+  font-size: 2rem;
+}
+header h3 {
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 786px) {
+  header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 5px solid rgb(194, 194, 194);
+    text-shadow: 2px 2px 8px #fff;
+    box-shadow: 0px 6px 20px 0px rgba(255, 255, 255, 0.19);
+  }
+}
+
+.container {
+  background-color: aliceblue;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  padding: 0.8rem;
+}
+.column:hover {
+  background-color: #000000;
+  color: white;
+  transition: 0.4s;
+  line-height: 1.5;
+}
+
+a {
+  font-size: 1.5rem;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  font-size: 1.64rem;
+}
+a:active {
+  color: green;
+}
+
+p::first-line {
+  background-color: rgb(120, 121, 121);
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+p::first-letter {
+  font-size: xx-large;
+}
+p::-moz-selection {
+  color: red;
+  background-color: yellow;
+}
+p::selection {
+  color: red;
+  background-color: yellow;
+}/*# sourceMappingURL=main.css.map */

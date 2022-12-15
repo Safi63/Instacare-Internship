@@ -1,0 +1,68 @@
+{
+    "StudentData": [
+        {
+            "Student": {
+                "Id": 1,
+                "Name": "Safi Butt",
+                "Age": 24,
+                "Class": "A"
+            }
+        },
+        {
+            "Student": {
+                "Id": 2,
+                "Name": "Mati Butt",
+                "Age": 16,
+                "Class": "B"
+            }
+        },
+        {
+            "Student": {
+                "Id": 3,
+                "Name": "Naji Butt",
+                "Age": 12,
+                "Class": "C"
+            }
+        },
+        {
+            "Student": {
+                "Id": 4,
+                "Name": "Saad Abbasi",
+                "Age": 24,
+                "Class": "A"
+            }
+        },
+        {
+            "Student": {
+                "Id": 5,
+                "Name": "M Zakriya",
+                "Age": 23,
+                "Class": "A"
+            }
+        },
+        {
+            "Student": {
+                "Id": 6,
+                "Name": "A.Haseeb",
+                "Age": 26,
+                "Class": "A"
+            }
+        },
+        {
+            "Student": {
+                "Id": 7,
+                "Name": "Abid",
+                "Age": 23,
+                "Class": "A"
+            }
+        },
+        {
+            "Student": {
+                "Id": 8,
+                "Name": "Naeem Ur Rehman",
+                "Age": 27,
+                "Class": "A"
+            }
+        }
+    ]
+}

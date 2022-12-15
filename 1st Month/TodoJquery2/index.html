@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- required="required" value="" meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <style>
+    .border-custom {
+      border: 1px solid;
+    }
+
+    .height-custom {
+      height: 95vh;
+    }
+  </style>
+
+  <title>Todo</title>
+</head>
+
+<body>
+
+  <div class="row m-0 px-5 mt-3">
+    <!-- Form Section  -->
+    <div class="container .height-custom col-5 border-primary bg-light border-custom">
+      <h1 class="text-center mt-3 mb-5 text-primary font-weight-bold">
+        Todo Form
+      </h1>
+      <!-- Form  -->
+      <form class="" id="myForm">
+        <!-- input type text (Todo title) -->
+        <div class="mb-3">
+          <label for="inputTitle" class="mb-1 font-weight-bold text-primary">Todo title</label>
+          <input class="form-control border-primary shadow-none" id="inputTitle" placeholder="title . . ." required
+            name="title" value="" />
+          <p class="m-0 invisible text-danger">.</p>
+        </div>
+
+        <!-- input type text (Todo description) -->
+        <div class="mb-3">
+          <label for="inputDescription" class="mb-1 font-weight-bold text-primary">Todo description</label>
+          <input class="form-control border-primary shadow-none" id="inputDescription" placeholder="description . . ."
+            required name="description" value="" />
+          <p class="m-0 invisible text-danger">.</p>
+        </div>
+
+        <!-- input type checkbox (for Date) -->
+        <div class="mb-3">
+          <p class="mb-1 font-weight-bold text-primary js-heading">Date</p>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="dateCheckBox" name="date" required value="" />
+            <label class="custom-control-label text-dark" for="dateCheckBox">Add current date</label>
+          </div>
+          <p class="m-0 invisible text-danger js-textInvalid">.</p>
+        </div>
+
+        <!-- input type radio (for Priority) -->
+        <div>
+          <p class="mb-1 d-block font-weight-bold text-primary js-radioHeading">
+            Priority
+          </p>
+          <div class="d-flex">
+            <div class="custom-control custom-radio mr-2">
+              <input type="radio" class="custom-control-input" id="radio1" name="priority" required value="High" />
+              <label class="custom-control-label" for="radio1">High</label>
+            </div>
+            <div class="custom-control custom-radio mr-2">
+              <input type="radio" class="custom-control-input" id="radio2" name="priority" required value="Medium" />
+              <label class="custom-control-label" for="radio2">Medium</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="radio3" name="priority" required value="Low" />
+              <label class="custom-control-label" for="radio3">Low</label>
+            </div>
+          </div>
+          <p class="m-0 invisible text-danger js-textInvalid">.</p>
+        </div>
+
+        <!-- Submit button  -->
+        <div class="text-center mt-5">
+          <button class="btn btn-outline-primary btn-block" type="button" id="btn-submit">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container col-5 border-success bg-light border-custom height-custom overflow-auto">
+      <h1 class="text-center mt-3 mb-5 text-success font-weight-bold">
+        Todo List
+      </h1>
+      <div class="my-2" id="list">
+        <!-- <ul id="todos" class="my-3 p-0"></ul> -->
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script src="js/index5.js"></script>
+</body>
+
+</html>
